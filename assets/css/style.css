@@ -1,0 +1,278 @@
+html,
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-family: "Poppins";
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./../font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(./../font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-semibold";
+    src: url(./../font/Poppins-Semibold.ttf);
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url(./../font/Axis-Bold.otf);
+}
+
+.main-container {
+    padding: 30px 140px;
+    margin-top: 40px;
+}
+
+.slide-show {
+    height: 550px;
+    background-image: url(./../img/img-3.png);
+    background-position: 200px 30px;
+    background-size: 555px;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    position: relative;
+    z-index: 0;
+}
+
+.slide-show.works {
+    margin-left: -140px;
+    margin-right: -140px;
+    background-position: 0px 100%;
+    background-size: 650px;
+    background-color: #C43814;
+    height: 630px;
+    padding-top: 140px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 60px;
+    background-color: #C43814;
+    width: 200px;
+}
+
+.title {
+    color: #C43814;
+    font-size: 85px;
+    font-family: Axis;
+    padding-right: 15px;
+}
+
+.title.works {
+    color: white;
+}
+
+.subtitle {
+    margin-top: 113px;
+    font-size: 14px;
+    color: #5C5C5C;
+}
+
+.subtitle.works {
+    color: white;
+}
+
+.btn {
+    color: white;
+    padding: 23px 64px;
+    background-color: #C43814;
+    text-align: center;
+    margin: 80px auto 0 auto;
+    display: block;
+    width: 160px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn.works {
+    background-color: #404040;
+    margin-top: 120px;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8 {
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-5 {
+    width: 41.6666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-8 {
+    width: 66.6666%;
+    padding-left: 0px;
+}
+
+.col-offset-2 {
+    margin-left: calc(16.6666% - 30px);
+}
+
+.col-offset-5 {
+    margin-left: calc(41.6666% - 30px);
+}
+
+.col-offset-6 {
+    margin-left: calc(50% - 30px);
+}
+
+.col-offset-8 {
+    margin-left: calc(66.6666% - 30px);
+}
+
+.col-offset-8.works {
+    margin-left: calc(66.6666% - 170px);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.blog-title {
+    color: #414141;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 115px;
+}
+
+.card {
+    margin-top: 18px;
+    margin-bottom: 150px;
+    height: 325px;
+    position: relative;
+}
+
+.card>img {
+    width: 367px;
+    float: left;
+    margin-right: 30px;
+}
+
+.card>h3 {
+    color: #414141;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.card>p {
+    color: #505050;
+    font-size: 15px;
+    padding-right: 85px;
+    margin-top: 17px;
+}
+
+.card>.btn {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #404040;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #D2D2D2;
+    height: 100px;
+}
+
+nav {
+    padding: 38px 140px;
+}
+
+nav {
+    color: #4F4F4F !important;
+}
+
+nav>.brand-title {
+    font-family: Axis;
+    font-size: 35px;
+    line-height: 35px;
+    float: left;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav>ul>li {
+    line-height: 35px;
+    margin-right: 46px;
+    font-size: 26px;
+    display: inline;
+}
+
+nav>ul>li.active {
+    text-decoration: underline;
+    color: #333333 !important;
+}
+
+.blog-posts-container {
+    margin-bottom: 110px;
+}
+
+.blog-posts-container>.row {
+    margin-top: 110px;
+}
+
+.blog-post {
+    color: #5C5C5C;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.fill {
+    width: 100%;
+}
