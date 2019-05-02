@@ -297,3 +297,21 @@ nav>ul>li.active {
 .fill {
     width: 100%;
 }
+
+.contacts-container {
+    margin-top: 250px;
+    height: calc(100vh - 530px);
+}
+
+.contacts-container .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.contacts-container .info {
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bold;
+}
